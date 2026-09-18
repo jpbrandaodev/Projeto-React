@@ -1,11 +1,15 @@
-import Calculadora from "./assets/componentes/Calculadora"
+// import Calculadora from "./src/componentes/Calculadora"
+import Contador from "./componentes/.Contador"
 
 function App() {
 
   return (
     <>
-      <Calculadora/>
+      <div>
+        <Contador />
+      </div>
     </>
+
   )
 }
 
